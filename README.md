@@ -31,3 +31,16 @@ Welcome to **Python Tutorial: From Scratch to Professional**. This repository is
 8. [Resources](#resources)
 
 ---
+
+## Introduction
+
+This tutorial is for absolute beginners and those looking to enhance their Python skills. You will learn everything from how to install Python, write basic programs, and tackle real-world projects like creating APIs or machine learning models.
+
+## Prerequisites
+
+- Basic understanding of how to use a computer
+- A text editor (e.g., VS Code, PyCharm, Sublime Text)
+- Python installed on your system (instructions below)
+
+---
+
