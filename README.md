@@ -148,3 +148,35 @@ else:
 - `if age >= 18:` checks if the age is greater than or equal to 18.
 - The code under `if` runs when the condition is `True`; otherwise, the code under `else` runs.
 
+### 5. Loops
+
+Python has two main types of loops: **for loops** and **while loops**. Loops help you repeat code.
+
+#### For Loop:
+
+```python
+# Example: Print numbers from 0 to 4
+for i in range(5):
+    print(f"Iteration {i}")
+```
+
+#### Explanation:
+
+- `range(5)` generates numbers from 0 to 4.
+- `for i in range(5):` repeats the loop for each number in that range, assigning each value to `i`.
+
+#### While Loop:
+
+```python
+# Example: Count to 5 using a while loop
+count = 0
+while count < 5:
+    print(f"Count: {count}")
+    count += 1  # Increment count by 1
+```
+
+#### Explanation:
+
+- `while count < 5:` keeps running as long as the condition is `True`.
+- `count += 1` increases the value of `count` by 1 after each iteration.
+
