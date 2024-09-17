@@ -73,3 +73,27 @@ brew install python  # On macOS using Homebrew
 ```bash
 sudo apt-get install python3
 ```
+
+### 2. Writing Your First Program
+
+After installing Python, let's write a simple "Hello, World!" program.
+
+```python
+# hello.py
+print("Hello, World!")
+```
+
+#### Explanation:
+
+- `print()` is a built-in function that outputs text to the console.
+- `"Hello, World!"` is a string, which is a sequence of characters.
+
+Save this file as `hello.py` and run it in the terminal:
+
+```bash
+python hello.py
+```
+
+You should see: `Hello, World!`
+
+---
