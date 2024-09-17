@@ -97,3 +97,29 @@ python hello.py
 You should see: `Hello, World!`
 
 ---
+
+## Basic Concepts
+
+### 3. Variables and Data Types
+
+In Python, variables store data. The type of data a variable holds can be an integer, a string, a float, or a boolean. Python automatically determines the type of variable based on the value you assign to it.
+
+```python
+# Example of different data types in Python
+name = "Alice"        # String
+age = 25              # Integer
+height = 5.7          # Float
+is_student = True     # Boolean
+```
+
+#### Explanation:
+
+- **String**: A sequence of characters (e.g., `"Alice"`).
+- **Integer**: A whole number without a decimal point (e.g., `25`).
+- **Float**: A number with a decimal point (e.g., `5.7`).
+- **Boolean**: A value that can be either `True` or `False`.
+
+```python
+# Example: Using variables in a print statement
+print(f"Name: {name}, Age: {age}, Height: {height}, Student: {is_student}")
+```
