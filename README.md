@@ -44,3 +44,32 @@ This tutorial is for absolute beginners and those looking to enhance their Pytho
 
 ---
 
+## Getting Started
+
+### 1. Installing Python
+
+To start using Python, you need to install it on your computer. Follow these steps:
+
+#### Windows:
+
+1. Go to [Python's official website](https://www.python.org/downloads/) and download the latest version.
+2. During installation, make sure to check the box "Add Python to PATH".
+3. Open Command Prompt and verify the installation:
+
+```bash
+python --version
+```
+
+#### macOS/Linux:
+
+1. Open a terminal and run:
+
+```bash
+brew install python  # On macOS using Homebrew
+```
+
+2. For Linux, use your package manager:
+
+```bash
+sudo apt-get install python3
+```
