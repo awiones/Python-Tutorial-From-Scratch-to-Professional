@@ -123,3 +123,28 @@ is_student = True     # Boolean
 # Example: Using variables in a print statement
 print(f"Name: {name}, Age: {age}, Height: {height}, Student: {is_student}")
 ```
+
+Output:
+
+```
+Name: Alice, Age: 25, Height: 5.7, Student: True
+```
+
+### 4. Conditional Statements
+
+Conditional statements allow you to execute different blocks of code depending on whether a condition is `True` or `False`.
+
+```python
+# Example: Checking if a person is an adult
+age = 20
+if age >= 18:
+    print("You are an adult.")
+else:
+    print("You are a minor.")
+```
+
+#### Explanation:
+
+- `if age >= 18:` checks if the age is greater than or equal to 18.
+- The code under `if` runs when the condition is `True`; otherwise, the code under `else` runs.
+
