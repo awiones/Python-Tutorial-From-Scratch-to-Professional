@@ -180,3 +180,127 @@ while count < 5:
 - `while count < 5:` keeps running as long as the condition is `True`.
 - `count += 1` increases the value of `count` by 1 after each iteration.
 
+### 6. Functions
+
+A **function** is a reusable block of code that performs a specific task.
+
+```python
+# Example: Define and call a function
+def greet(name):
+    """This function greets the person whose name is passed as an argument."""
+    return f"Hello, {name}!"
+
+print(greet("Alice"))
+```
+
+#### Explanation:
+
+- `def greet(name):` defines a function called `greet` that accepts a parameter `name`.
+- `return` sends the result of the function back to where it was called.
+- `"""` is a **docstring** that provides documentation for the function.
+
+### 7. Lists, Tuples, and Dictionaries
+
+Python provides several data structures to store collections of items.
+
+#### Lists:
+
+A list is a collection of ordered, changeable, and indexed items.
+
+```python
+# Example: Creating a list of fruits
+fruits = ["apple", "banana", "cherry"]
+print(fruits[1])  # Output: banana
+```
+
+#### Explanation:
+
+- Lists are created using square brackets `[ ]`.
+- Items in a list are indexed starting from 0.
+
+#### Tuples:
+
+A tuple is a collection of ordered and unchangeable items.
+
+```python
+# Example: Creating a tuple
+person = ("Alice", 25, "Engineer")
+print(person[0])  # Output: Alice
+```
+
+#### Explanation:
+
+- Tuples are created using parentheses `( )`.
+- Unlike lists, you cannot change the values in a tuple after it’s created.
+
+#### Dictionaries:
+
+A dictionary is a collection of unordered, changeable, and indexed items. It stores data as key-value pairs.
+
+```python
+# Example: Creating a dictionary
+student = {"name": "Alice", "age": 25, "course": "Math"}
+print(student["name"])  # Output: Alice
+```
+
+#### Explanation:
+
+- Dictionaries use curly braces `{ }`.
+- Keys in a dictionary must be unique.
+
+---
+
+## Intermediate Concepts
+
+### 8. File Handling
+
+In Python, you can easily work with files.
+
+```python
+# Writing to a file
+with open('sample.txt', 'w') as file:
+    file.write("This is a sample file.")
+```
+
+```python
+# Reading from a file
+with open('sample.txt', 'r') as file:
+    content = file.read()
+    print(content)
+```
+
+#### Explanation:
+
+- `open()` is used to open a file in different modes (`'w'` for writing, `'r'` for reading).
+- `with` ensures that the file is properly closed after the block of code runs.
+
+### 9. Object-Oriented Programming
+
+Object-Oriented Programming (OOP) allows you to define classes and create objects from those classes.
+
+```python
+# Example: Defining a class and creating an object
+class Dog:
+    def __init__(self, name, breed):
+        self.name = name
+        self.breed = breed
+
+    def bark(self):
+        return f"{self.name} is
+
+ barking."
+
+# Creating an object of class Dog
+my_dog = Dog("Buddy", "Golden Retriever")
+print(my_dog.bark())  # Output: Buddy is barking.
+```
+
+#### Explanation:
+
+- `class Dog:` defines a class called `Dog`.
+- `__init__()` is the constructor method that initializes the object.
+- `my_dog = Dog("Buddy", "Golden Retriever")` creates an object `my_dog` with the specified attributes.
+
+---
+
+This README continues into **Advanced Concepts**, **Projects**, and additional **Resources**. 
